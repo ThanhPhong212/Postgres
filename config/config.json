@@ -1,0 +1,57 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "hbm",
+    "host": "localhost",
+    "port": "1234",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Admin@123",
+    "database": "hmb_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "",
+    "password": null,
+    "database": "",
+    "host": "",
+    "dialect": ""
+  },
+  "constant": {
+    "user": {
+      "ROLES": [
+        "ADMIN",
+        "INVESTMENT_DIRECTOR",
+        "ACCOUNTANTS",
+        "INVESTOR",
+        "EXPERT"
+      ],
+      "ADMIN": "Administrator",
+      "INVESTMENT_DIRECTOR": "Giám đốc đầu tư",
+      "ACCOUNTANTS": "Kế toán",
+      "INVESTOR": "Chủ đầu tư",
+      "EXPERT": "Chuyên viên"
+    }
+  },
+  "logs": {
+    "USER_LOG": {
+      "CREATE_USER": "CREATE_USER",
+      "UPDATE_USER": "UPDATE_USER",
+      "SHOW_USER": "SHOW_USER"
+    },
+    "ACCOUNT_LOG": {
+      "CREATE_ACCOUNT": "CREATE_ACCOUNT",
+      "UPDATE_ACCOUNT": "UPDATE_ACCOUNT"
+    },
+    "FUND_LOG": {
+      "CREATE_FUND": "CREATE_FUND",
+      "UPDATE_FUND": "UPDATE_FUND"
+    }
+  }
+}
