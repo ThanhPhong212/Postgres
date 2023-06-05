@@ -2,9 +2,9 @@
   "development": {
     "username": "postgres",
     "password": "1234",
-    "database": "hbm",
+    "database": "hmb",
     "host": "localhost",
-    "port": "1234",
+    "port": "5432",
     "dialect": "postgres",
     "logging": false
   },
